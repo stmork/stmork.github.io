@@ -24,4 +24,4 @@ div#Text p      { font-size:100%; }
 div#Text ul     { list-style-type:none; list-style-image:url(pictures/Textkugel_indigo.gif); font-weight:bold;  }
 div#Text li     { font-weight:normal; vertical-align:bottom; }
 
-div#Text table tr td   { vertical-align:top; }
+div#Text  td   { vertical-align:top; margin-bottom:10px; }

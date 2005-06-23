@@ -11,17 +11,16 @@ img { border:0; };
 div#Seite       { float:left; text-align:justify; width:800px; }
 
 div#Menu        { float:left; text-align:left; }
-div#Menu:before { content:url(pictures/HOME.gif); }
 div#Menu ul     { list-style-position:outside; background:#e0e0e0; font-weight:bold; text-decoration:underline; padding-top:10px; padding-bottom:10px; font-size:120%; } 
 div#Menu li     { list-style-type:none;        background:#e0e0e0; list-style-image:url(pictures/Textkugel_indigo.gif); margin:0; font-weight:normal; }
 
 div#Text        { text-align:justify; margin-left:190px; width:600px}
-div#Text:before { content:url(pictures/SMork.jpg); }
 div#Text h1     { font-size:200%; }
 div#Text h2     { font-size:150%; }
 div#Text h3     { font-size:100%; text-decoration:underline; }
 div#Text p      { font-size:100%; }
 div#Text ul     { list-style-type:none; list-style-image:url(pictures/Textkugel_indigo.gif); font-weight:bold;  }
 div#Text li     { font-weight:normal; vertical-align:bottom; }
-
 div#Text td     { vertical-align:top; margin-bottom:10px; }
+
+div#title h1    { content:url(pictures/SMork.jpg); }

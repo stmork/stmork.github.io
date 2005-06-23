@@ -5,4 +5,3 @@ div#Menu li     { display:none; }
 div#Seite       { text-align:justify; }
 
 div#Text        { text-align:justify; float:left; }
-div#Text:before { content:url(pictures/SMork.jpg); }

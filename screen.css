@@ -23,4 +23,11 @@ div#Text ul     { list-style-type:none; list-style-image:url(pictures/Textkugel_
 div#Text li     { font-weight:normal; vertical-align:bottom; }
 div#Text td     { vertical-align:top; margin-bottom:10px; }
 
+.Table          { border-width:0px; padding:0px; margin:0px; margin-top:15px; width:100%; vertical-align:top; }
+.Headline       { color:#380073; background:#aad; font-weight:bold; border-width:1px; border-style:solid; border-color:#380073; padding:4px; padding-left:14px;  }
+.Textline       { color:#000; background:#ccc; padding:6px; border-width:1px; border-style:solid; border-color:#380073; }
+
+.cv_table { padding-top:10px; border-spacing:0px; }
+.cv_cell  { border-width:0px; margin:0px; color:#000; background:#ccc; padding:6px; border-color:#380073; }
+
 div#title h1    { content:url(pictures/SMork.jpg); }

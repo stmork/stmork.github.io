@@ -39,6 +39,7 @@ menu > ul li, block > ul li
 	background-repeat: no-repeat;
 	background-size: 32px 32px;
 	padding-left: 40px;
+	padding-right: 0.5em;
 	padding-top: 0.1em;
 	padding-bottom: 0.1em;
 	vertical-align: middle;

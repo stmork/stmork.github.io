@@ -92,118 +92,9 @@ tag-cloud {
 	text-align: center;	
 }
 
-@media only screen and (min-device-width: 321px)
-{
-	mobile-ad
-	{
-		display: none;
-	}
-}
-
-@media only screen and (max-device-width: 320px)
-{
-	horizontal-ad
-	{
-		display: none;
-	}
-
-	mobile-ad
-	{
-		width: auto;
-	}
-
-	body
-	{
-		font-size: 22pt;
-	}
-}
-
-@media only screen and (min-device-width: 641px)
-{
-	tag-cloud
-	{
-		width: 200px;
-	}
-}
-
-@media only screen and (max-device-width: 640px)
-{
-	tag-cloud
-	{
-		display: none;
-	}
-}
-
-@media (max-width: 1024px)
-{
-	header h1,h2,h3,menu h1,h2,h3
-	{
-		margin-top: 0;
-	}
-
-	content, menu
-	{
-		display: block;
-		margin: 0;
-		width: auto;
-	}
-	
-	menu > ul li
-	{
-		display: inline-block;
-	}
-	
-	content
-	{
-		margin-top: 1em;
-	}
-
-	vertical-ad,size1,size2,size3
-	{
-		display: none;
-	}
-}
-
-@media (min-width: 1024px)
-{
-	header,footer
-	{
-		padding-left: 26em;
-	}
-
-	menu
-	{
-		float: left;
-		margin-top: 0;
-		margin-right: 1em;
-		width: 22em;
-	}
-	
-	menu > ul li
-	{
-		display: block;
-	}
-
-	content
-	{
-		display: block;
-		margin-top: 0;
-		margin-right: 170px;
-		margin-left: 25em;
-		margin-bottom: 1em;
-	}
-
-	vertical-ad
-	{
-		margin-top: 0;
-		margin-left: 1em;
-		float: right;
-		width: 160px;
-	}
-}
-
 clear
 {
+	display: block;
 	clear: both;
 }
 
@@ -246,6 +137,125 @@ size6
 size7
 {
 	font-size: 1.4em;
+}
+
+@media only screen and (min-device-width: 320px)
+{
+	mobile-ad
+	{
+		display: none;
+	}
+}
+
+@media only screen and (max-device-width: 319px)
+{
+	horizontal-ad
+	{
+		display: none;
+	}
+
+	mobile-ad
+	{
+		width: auto;
+	}
+
+	body
+	{
+		font-size: 22pt;
+	}
+}
+
+@media only screen and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2)
+{
+	tag-cloud
+	{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1024px)
+{
+	size1,size2,size3
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1279px)
+{
+	header h1,h2,h3,menu h1,h2,h3
+	{
+		margin-top: 0;
+	}
+	
+	vertical-ad
+	{
+		display: none;
+	}
+	
+	menu, content
+	{
+		margin: 0;
+		width: auto;
+		float: none;
+		display: block;
+	}
+	
+	content
+	{
+		margin-top: 1em;
+	}
+	
+	menu > ul li
+	{
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width: 1280px)
+{
+	header,footer
+	{
+		padding-left: 26em;
+	}
+
+	menu
+	{
+		float: left;
+		margin-top: 0;
+		margin-right: 1em;
+		width: 22em;
+	}
+	
+	menu > ul li
+	{
+		display: block;
+	}
+
+	content
+	{
+		display: block;
+		margin-top: 0;
+		margin-right: 170px;
+		margin-left: 25em;
+		margin-bottom: 1em;
+	}
+
+	vertical-ad
+	{
+		margin-top: 0;
+		margin-left: 1em;
+		float: right;
+		width: 160px;
+	}
+}
+
+@media screen and (max-width: 320px)
+{
+	menu > ul li
+	{
+		display: block;
+	}
 }
 
 @media print

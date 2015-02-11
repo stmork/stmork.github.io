@@ -5,6 +5,24 @@ body
 	font-size: 0.9em;
 }
 
+/* Retina displays */
+@media (-webkit-min-device-pixel-ratio: 2)
+{
+	html
+	{
+		font-size: 2em;
+	}
+}
+
+/* Mindestens iPad und Desktop */
+@media screen and (min-device-width: 768px)
+{
+	h1, h2, h3
+	{
+		font-weight: 100;
+	}
+}
+
 a:link
 {
 	color: #444;
@@ -61,7 +79,6 @@ h1,h2,h3
 {
 	margin-top:    0.1em;
 	margin-bottom: 0.2em;
-	font-weight: 100;
 }
 
 toc entry

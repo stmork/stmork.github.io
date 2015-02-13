@@ -15,7 +15,7 @@ body
 }
 
 /* Mindestens iPad und Desktop */
-@media screen and (min-device-width: 768px)
+@media screen and (min-device-width: 769px)
 {
 	h1, h2, h3
 	{
@@ -50,7 +50,7 @@ menu > ul, block > ul
 	padding: 0;
 	padding-right: 1em;
 	list-style: none;
-	font-size: 32px;
+	font-size: 28px;
 }
 
 menu > ul li, block > ul li
@@ -205,8 +205,12 @@ size7
 	}
 }
 
-@media only screen and (max-width: 1024px)
+@media only screen and (max-device-width: 1024px)
 {
+	html
+	{
+		font-size: 1.2em;
+	}
 	size1,size2,size3
 	{
 		display: none;

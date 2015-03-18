@@ -1,7 +1,6 @@
 body
 {
 	font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
-	font-weight: normal;
 	font-size: 0.9em;
 }
 
@@ -11,15 +10,6 @@ body
 	html
 	{
 		font-size: 2em;
-	}
-}
-
-/* Mindestens iPad und Desktop */
-@media screen and (min-device-width: 769px)
-{
-	h1, h2, h3
-	{
-		font-weight: 100;
 	}
 }
 
@@ -77,10 +67,11 @@ header h1
 	margin-bottom: 0;
 }
 
-h1,h2,h3
+h1, h2, h3
 {
 	margin-top:    0.1em;
 	margin-bottom: 0.2em;
+	font-weight: 400;
 }
 
 toc entry

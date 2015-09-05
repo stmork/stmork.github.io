@@ -107,8 +107,12 @@ content p
 
 footer
 {
-	font-style: italic;
 	clear: both;
+}
+
+footer p
+{
+	font-style: italic;
 }
 
 tag-cloud {

@@ -4,10 +4,9 @@ body
 	font-size: 0.9em;
 }
 
-/* Retina displays */
-@media (-webkit-min-device-pixel-ratio: 2)
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px)
 {
-	html
+	body
 	{
 		font-size: 2em;
 	}
@@ -171,7 +170,7 @@ desktop-ad, mobile-ad
 	display: inline-block;
 }
 
-@media only screen and (min-device-width: 320px)
+@media only screen and (min-width: 320px)
 {
 	mobile-ad
 	{
@@ -179,7 +178,7 @@ desktop-ad, mobile-ad
 	}
 }
 
-@media only screen and (max-device-width: 319px)
+@media screen and (max-width: 319px)
 {
 	desktop-ad
 	{
@@ -197,7 +196,7 @@ desktop-ad, mobile-ad
 	}
 }
 
-@media only screen and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2)
+@media screen and (max-device-width: 767px)
 {
 	tag-cloud
 	{
@@ -205,12 +204,8 @@ desktop-ad, mobile-ad
 	}
 }
 
-@media only screen and (max-device-width: 1024px)
+@media screen and (max-device-width: 1279px)
 {
-	html
-	{
-		font-size: 2.0em;
-	}
 	size1,size2,size3
 	{
 		display: none;
@@ -286,7 +281,7 @@ desktop-ad, mobile-ad
 	}
 }
 
-@media screen and (max-width: 320px)
+@media screen and (max-width: 319px)
 {
 	menu > ul li
 	{
